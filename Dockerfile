@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["echo", "Contenedor funcionando"]
+CMD ["tail", "-f", "/dev/null"]
